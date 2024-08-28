@@ -1,0 +1,26 @@
+.container{
+    height: 800px;
+    width: 800px;
+    background-color: beige;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: teal;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 5s linear 1s ;
+}
+.box:hover{
+    /* transform: rotate(45deg); */
+    /* transform: scale(2); */
+    /* transform: translate(50px,50px); */
+    /* transform: skew(45deg); */
+    transform: matrix(1, 2, 3, 4, 5, 6);
+}
